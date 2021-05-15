@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #t1{
+            background: yellow;
+            height: 70px;
+            width: 140px;
+            font-size: 20px;
+        }
+        #t2{
+            background: palevioletred;
+            height: 70px;
+            width: 140px;
+            font-size: 20px;
+        }
+        /*아이디선택자*/
+        #t3{
+            background: greenyellow;
+            height: 70px;
+            width: 140px;
+            font-size: 20px;
+        }
+        /*태그선택자*/
+        .c1{
+            background: lightgreen;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #t4{
+            background: pink;
+        }
+        /*마우스를 올렸을 때 가상상황을 선택 => 가상선택자*/
+        td:hover{ 
+            background: red;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>나의 취미</h1>
+    <hr color = "red">
+    <table border="1">
+        <tr>
+            <th id = "t1">취미종류</th>
+            <th id = "t2">취미금액</th>
+            <th id = "t3">취미장소</th>
+        </tr>
+        <tr>
+            <td class="c1">달리기</td>
+            <td class="c1">1000</td>
+            <td class="c1">여의도 공원</td>
+        </tr>
+        <tr>
+            <td class="c1">등산</td>
+            <td class="c1">2000</td>
+            <td class="c1">관악산</td>
+        </tr>
+        <tr>
+            <td class="c1">독서</td>
+            <td class="c1">10000</td>
+            <td class="c1">강남역</td>
+        </tr>
+        <tr>
+            <th id="t4" colspan="3"><a href="index.html">첫페이지로</a> </th>
+        </tr>
+    </table>
+
+</body>
+</html>
